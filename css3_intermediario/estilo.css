@@ -22,33 +22,30 @@ h2 {
     border: 1px solid rgb(0, 0, 0);
 }
 
+#principal {
+    border: 5px solid red;
+    background: gray;
+}
+
 .conteudo {
     background: blue;
     border: 1px solid gray;
     width: 150px;
     height: 150px;
-    float: left;
     margin: 10px;
-}
-
-.conteudo1 {
-    background: rgb(12, 223, 40);
-    border: 1px solid gray;
-    width: 150px;
-    height: 150px;
-    float: left;
-    margin: 10px;
-}
-
-.conteudo-zero {
-    background: rgb(12, 223, 40);
-    border: 1px solid gray;
-    width: 150px;
-    height: 150px;
-    float: left;
-    margin: 10px;
+    float: right;
 }
 
 .clear {
-    clear: left;
+    clear: both;
 }
+
+/* .conteudo1 {
+    background: rgb(255, 1, 1);
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+} */
+
