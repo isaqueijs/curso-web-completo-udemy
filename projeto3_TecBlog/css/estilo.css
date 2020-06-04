@@ -51,11 +51,23 @@ body {
     margin-bottom: 20px;
 }
 
+.conteudo-anuncios {
+    background: white;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.conteudo-anuncios img {
+    width: 220px;
+    padding-top: 10px;
+}
+
 .postagem-lateral {
     font-size: 0.8em;
     padding: 5px;
     border-bottom: 1px dotted #CCC;
 }
+
 
 #rodape {
     clear: both;
